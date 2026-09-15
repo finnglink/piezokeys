@@ -53,7 +53,11 @@ Massive credit to [**ellitone.usa**](https://www.instagram.com/ellitone.usa/) on
 
 Everything's in [`hardware/`](hardware):
 
-- **`hardware/3d-print/`** — `case.stl` (mine printed fine without supports, though tree supports near the USB cutout make it a little cleaner), `led_lens.stl` × 4 (clear filament, no supports needed, print with the square recess on the buildplate), `feet_spacer.stl` (helps align whatever felt or rubber feet you have evenly) and optionally `key.stl` (the actual keys, if you don't have access to a laser. **Haven't tested these, let me know if/how well they work**).
+- **`hardware/3d-print/`** — `case.stl` (mine printed fine without supports, though tree supports near the USB cutout make it a little cleaner), `led_lens.stl` × 4 (clear filament, no supports needed, print with the square recess on the buildplate), `feet_spacer.stl` (helps align whatever felt or rubber feet you have evenly) and optionally `key.stl` (the actual keys, if you don't have access to a laser. **Haven't tested these, let me know if/how well they work**). If you wanna make any changes to the actual 3D model, here is the [Onshape project](https://cad.onshape.com/documents/3bb9c38756300b0fe358b762/w/595eaf5beb0efc0a0c1872a2/e/62137f043cf174cf7afea789?renderMode=0&uiState=6aa97d154d8efd0afdc798aa) 
+
+> [!IMPORTANT]
+> If you want to build and sell this project commercially, you'll need a paid Onshape license. 
+
 - **`hardware/laser-cut/`** — two DXF files (`piezo-keyarray-cut.dxf` for the cuts, 
 `piezo-keyarray-engrave.dxf` for the engraving) plus the source `.ai` files. Cut on a Creality Falcon A1 (30×30cm bed). I had some troubles getting them aligned properly in FalconDesignSpace, make sure the engrave lines are evenly spaced between the top and bottom mounting holes on the front piece. If your laser has a smaller working area, you'll need to tile them yourself or cut in batches.
 
@@ -220,6 +224,8 @@ Key 4's category slot at layer 1 is currently unassigned — reserved for a futu
 ## License
 
 MIT — see [`LICENSE`](LICENSE). Build one, remix it, sell your own version, make sure to tag / show me.
+> [!IMPORTANT]
+> If you want to build and sell this project commercially, you'll need a paid Onshape license. 
 
 # The End
 I hope this was a fun project and you got through with ease. If you're having difficulties at any point, please reach out. You can join my [Discord Server](https://glnnk.art/discord) for support. 
