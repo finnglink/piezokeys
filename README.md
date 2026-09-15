@@ -9,13 +9,18 @@ A 4-key USB-MIDI keyboard using piezo discs for keystroke detection, with a lase
 
 Runs on a Seeed XIAO RP2040 and shows up as a class-compliant USB MIDI device. You could also easily add a TRS MIDI Out circuit to use it with hardware synths.
 
-### Two things you should know before you build this
+### Three things you should know before you build this
 
 **The firmware is AI-written.** I'm not a programmer, I came up with the idea, developed the keystroke and menu logic and designed the 3D models, with Claude Code doing the actual coding. It works and it's been play-tested and tuned for some time, but check the code for yourself instead of blindly trusting, and if you find something dumb, open an issue or a PR.
 
 **Key 1 and Key 4 are less sensitive than 2 and 3.** They sit right against the outer walls of the case, which are stiffer than the inner walls, so the same tap produces a weaker signal. Software compensates with lower trigger thresholds on those two, and it's somewhat fine — but if you want to fix it properly, add one dummy/blank key on each end of the case so 1 and 4 become "inner" keys too. 
 
+**Consider this project a work-in-progress** Some hardware bits are not 100% ideal yet, mentioned further down the build guide. Feel free to fix and improve them yourself, or do a whole different take on this concept. 
+
 Massive credit to [**ellitone.usa**](https://www.instagram.com/ellitone.usa/) on Instagram — this whole project exists because I saw what they were doing with piezos and picked their brain about it. And their stuff looks and sounds even better than mine xD
+
+> [!TIP]
+> Join my [Discord Server](https://glnnk.art/discord) for build support and discussion.
 
 ---
 
